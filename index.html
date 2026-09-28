@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Saumy Shah — AI/ML Engineer portfolio with an AI-powered portfolio assistant." />
+  <title>Saumy Shah — AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="nav">
+    <a class="brand" href="#"><span class="brand-dot"></span> SAUMY<span class="muted">.AI</span></a>
+    <nav>
+      <a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="github" href="https://github.com/saumyshah08" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> AI/ML ENGINEER IN THE MAKING</div>
+      <h1>Meet my <span>AI twin.</span><br>Ask me anything.</h1>
+      <p class="intro">A conversational portfolio built to help you explore my skills, projects, education and goals — without digging through endless sections.</p>
+
+      <div class="chat-shell">
+        <div class="chat-top"><div><strong>Saumy AI</strong><small>Portfolio assistant · Online</small></div><div class="status">● LIVE</div></div>
+        <div id="chat" class="chat-messages">
+          <div class="message bot"><div class="avatar">S</div><div><span class="bubble">Hey! I'm Saumy's AI portfolio assistant. Ask me about his projects, skills, education, career goals or experience.</span><div class="time">Just now</div></div></div>
+        </div>
+        <div class="quick-actions">
+          <button data-question="Tell me about Saumy">About Saumy</button>
+          <button data-question="What projects has Saumy built?">Projects</button>
+          <button data-question="What are Saumy's skills?">Skills</button>
+          <button data-question="What is Saumy's career goal?">Career</button>
+        </div>
+        <form id="chat-form" class="chat-input"><input id="user-input" autocomplete="off" placeholder="Ask Saumy AI anything..." /><button aria-label="Send">➤</button></form>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">01 / SELECTED WORK</div>
+      <h2>Things I've built.</h2>
+      <div class="cards">
+        <article class="card"><div class="card-icon">⌘</div><h3>Student Management System</h3><p>Java + MySQL application for managing student records with a clean, practical workflow.</p><span>Java · MySQL</span></article>
+        <article class="card"><div class="card-icon">↗</div><h3>FleetSync</h3><p>Hackathon concept for fleet operations: vehicles, drivers, trips, maintenance, fuel and dashboards.</p><span>Python · ERP · AI</span></article>
+        <article class="card"><div class="card-icon">◉</div><h3>Smart Portfolio</h3><p>This conversational portfolio — designed around an AI-first visitor experience.</p><span>HTML · CSS · JavaScript</span></article>
+      </div>
+    </section>
+
+    <section id="skills" class="section split">
+      <div><div class="section-label">02 / TOOLKIT</div><h2>Built to learn fast.</h2><p>I’m a B.Tech AI & ML student focused on software engineering, DSA and practical AI systems.</p></div>
+      <div class="skill-list"><span>Python</span><span>Java</span><span>C/C++</span><span>JavaScript</span><span>React.js</span><span>SQL / MySQL</span><span>Git & GitHub</span><span>Machine Learning</span><span>DSA</span><span>HTML / CSS</span></div>
+    </section>
+
+    <section id="contact" class="contact"><div><div class="section-label">03 / LET'S CONNECT</div><h2>Have a project in mind?</h2><p>I'm open to learning opportunities, internships, collaborations and interesting AI/software projects.</p></div><a class="cta" href="mailto:saumyshah2010@gmail.com">Get in touch ↗</a></section>
+  </main>
+  <footer>© 2026 Saumy Shah · Built with curiosity + code.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
